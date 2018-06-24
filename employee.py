@@ -1,0 +1,30 @@
+# The below code accepts value from the user
+print('****** Employee1 Details *********')
+emp1_name = input('Employee1 Name: ')
+emp1_id = input('Employee1 Id: ')
+emp1_age = input('Employee1_Age: ')
+emp1_dob = input('Employee1_dob: ')
+emp1_address = input('Employee1_address: ')
+
+print('****** Employee2 Details *********')
+emp2_name = input('Employee2 Name: ')
+emp2_id = input('Employee2 Id: ')
+emp2_age = input('Employee2_Age: ')
+emp2_dob = input('Employee2_dob: ')
+emp2_address = input('Employee2_address: ')
+
+# The following code outputs the user entered values
+print('You have entered the following employee details.')
+print('\n----- Employee1 Details -----\n')
+print('Name:',emp1_name)
+print('ID:',emp1_id)
+print('Age:',emp1_age)
+print('DOB:',emp1_dob)
+print('Address:',emp1_address)
+
+print('\n----- Employee2 Details -----')
+print('Name:',emp2_name)
+print('ID:',emp2_id)
+print('Age:',emp2_age)
+print('DOB:',emp2_dob)
+print('Address:',emp2_address)
